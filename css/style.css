@@ -15,7 +15,7 @@ body {
 header {
 	position: fixed;
 	background-color: rgba(48, 48, 48, 0.5);
-	padding: 10px 0;
+	padding: 12px 0;
 	width: 100%
 }
 
@@ -25,7 +25,7 @@ header img {
 
 header nav {
 	float: right;
-	margin-top: 10px;
+	margin-top: 12px;
 }
 
 header nav a {
@@ -86,6 +86,10 @@ header nav a.active {
 
 #home .social a:hover {
 background-color: #fed136;
+}
+
+#nosotros {
+	background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(51, 125, 80, 0.6) ), url('../images/tarjeta_boots.png') center 45%;
 }
 
 #servicios .box {
@@ -182,6 +186,12 @@ section h2 {
 
 #quienes{
 	text-align: justify;
+	color: white;
+  text-shadow:
+   	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+  	1px 1px 0 #000;
 }
 
 #acerca{
@@ -192,5 +202,7 @@ section h2 {
 
 #titul{
 	font-size: 30px;
-	color: #696969;
+	/* color: #696969; */
+	color: white;
+	-webkit-text-stroke: 1.5px black;
 }
