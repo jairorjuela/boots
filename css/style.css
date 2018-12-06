@@ -89,7 +89,12 @@ background-color: #fed136;
 }
 
 #nosotros {
-	background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(51, 125, 80, 0.6) ), url('../images/tarjeta_boots.png') center 45%;
+	background:
+		url('../images/boots.png') repeat-y 60%;
+}
+
+#servicios {
+	background: white;
 }
 
 #servicios .box {
@@ -186,12 +191,6 @@ section h2 {
 
 #quienes{
 	text-align: justify;
-	color: white;
-  text-shadow:
-   	-1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-  	1px 1px 0 #000;
 }
 
 #acerca{
