@@ -103,26 +103,15 @@ background-color: #fed136;
 	align-items: baseline;
 }
 
-#video {
-	background-color: black;
-	text-align: center;
-	padding: 30px 0;
-}
-
 #portafolio {
-	background-color: whitesmoke;
+	background-color: black;
 }
 
 #portafolio .box{
-	background-color: white;
-	display: inline-block;
-	text-align: center;
-	width: 31%;
-	margin: 1%;
-}
-
-#portafolio .box img {
-	width: 100%
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 #portafolio .box p {
@@ -203,4 +192,11 @@ section h2 {
 	/* color: #696969; */
 	color: white;
 	-webkit-text-stroke: 1.5px black;
+}
+
+#catalo{
+	margin-top: 80px;
+	font-size: 55px;
+	color: black;
+	-webkit-text-stroke: 0.5px white;
 }
