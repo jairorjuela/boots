@@ -57,6 +57,50 @@ $(document).ready(function () {
   }
   // Fin Modal 3
 
+  // Inicio Modal 4
+  var modal3 = document.getElementById('myModal3');
+
+  var img3 = document.getElementById('myImg3');
+  var modalImg3 = document.getElementById("img04");
+  var captionText3 = document.getElementById("caption3");
+  img3.onclick = function(){
+      modal3.style.display = "block";
+      modalImg3.src = this.src;
+      captionText3.innerHTML = this.alt;
+  }
+
+  var span3 = document.getElementById('close3');
+
+  span3.onclick = function() {
+      modal3.style.display = "none";
+  }
+  // Fin Modal 4
+
+  // Inicio Modal 5
+  var modal4 = document.getElementById('myModal4');
+
+  var img4 = document.getElementById('myImg4');
+  var modalImg4 = document.getElementById("img05");
+  var captionText4 = document.getElementById("caption4");
+  img4.onclick = function(){
+      modal4.style.display = "block";
+      modalImg4.src = this.src;
+      captionText4.innerHTML = this.alt;
+  }
+
+  var span4 = document.getElementById('close4');
+
+  span4.onclick = function() {
+      modal4.style.display = "none";
+  }
+  // Fin Modal 5
+
+
+
+
+
+
+
 
 
 
