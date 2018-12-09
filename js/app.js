@@ -114,6 +114,63 @@ $(document).ready(function () {
   }
   // Fin Modal 6
 
+  // Inicio Modal 7
+  var modal6 = document.getElementById('myModal6');
+
+  var img6 = document.getElementById('myImg6');
+  var modalImg6 = document.getElementById("img07");
+  var captionText6 = document.getElementById("caption6");
+  img6.onclick = function(){
+      modal6.style.display = "block";
+      modalImg6.src = this.src;
+      captionText6.innerHTML = this.alt;
+  }
+
+  var span6 = document.getElementById('close6');
+
+  span6.onclick = function() {
+      modal6.style.display = "none";
+  }
+  // Fin Modal 7
+
+  // Inicio Modal 8
+  var modal7 = document.getElementById('myModal7');
+
+  var img7 = document.getElementById('myImg7');
+  var modalImg7 = document.getElementById("img08");
+  var captionText7 = document.getElementById("caption7");
+  img7.onclick = function(){
+      modal7.style.display = "block";
+      modalImg7.src = this.src;
+      captionText7.innerHTML = this.alt;
+  }
+
+  var span7 = document.getElementById('close7');
+
+  span7.onclick = function() {
+      modal7.style.display = "none";
+  }
+  // Fin Modal 8
+
+  // Inicio Modal 8
+  var modal8 = document.getElementById('myModal8');
+
+  var img8 = document.getElementById('myImg8');
+  var modalImg8 = document.getElementById("img09");
+  var captionText8 = document.getElementById("caption8");
+  img8.onclick = function(){
+      modal8.style.display = "block";
+      modalImg8.src = this.src;
+      captionText8.innerHTML = this.alt;
+  }
+
+  var span8 = document.getElementById('close8');
+
+  span8.onclick = function() {
+      modal8.style.display = "none";
+  }
+  // Fin Modal 8
+
 
 
 
