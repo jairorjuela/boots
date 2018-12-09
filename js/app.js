@@ -95,6 +95,35 @@ $(document).ready(function () {
   }
   // Fin Modal 5
 
+  // Inicio Modal 6
+  var modal5 = document.getElementById('myModal5');
+
+  var img5 = document.getElementById('myImg5');
+  var modalImg5 = document.getElementById("img06");
+  var captionText5 = document.getElementById("caption5");
+  img5.onclick = function(){
+      modal5.style.display = "block";
+      modalImg5.src = this.src;
+      captionText5.innerHTML = this.alt;
+  }
+
+  var span5 = document.getElementById('close5');
+
+  span5.onclick = function() {
+      modal5.style.display = "none";
+  }
+  // Fin Modal 6
+
+
+
+
+
+
+
+
+
+
+
 
 
 
