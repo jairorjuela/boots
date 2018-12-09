@@ -19,7 +19,7 @@ $(document).ready(function () {
   }
   // Fin Modal 1
 
-  // Inicio Modal 1
+  // Inicio Modal 2
   var modal1 = document.getElementById('myModal1');
 
   var img1 = document.getElementById('myImg1');
@@ -36,9 +36,26 @@ $(document).ready(function () {
   span1.onclick = function() {
       modal1.style.display = "none";
   }
-  // Fin Modal 1
+  // Fin Modal 2
 
+  // Inicio Modal 3
+  var modal2 = document.getElementById('myModal2');
 
+  var img2 = document.getElementById('myImg2');
+  var modalImg2 = document.getElementById("img03");
+  var captionText2 = document.getElementById("caption2");
+  img2.onclick = function(){
+      modal2.style.display = "block";
+      modalImg2.src = this.src;
+      captionText2.innerHTML = this.alt;
+  }
+
+  var span2 = document.getElementById('close2');
+
+  span2.onclick = function() {
+      modal2.style.display = "none";
+  }
+  // Fin Modal 3
 
 
 
