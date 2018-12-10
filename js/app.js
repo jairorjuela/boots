@@ -266,6 +266,63 @@ $(document).ready(function () {
   }
   // Fin Modal 13
 
+  // Inicio Modal 14
+  var modal14 = document.getElementById('myModal14');
+
+  var img14 = document.getElementById('myImg14');
+  var modalImg14 = document.getElementById("img15");
+  var captionText14 = document.getElementById("caption14");
+  img14.onclick = function(){
+      modal14.style.display = "block";
+      modalImg14.src = this.src;
+      captionText14.innerHTML = this.alt;
+  }
+
+  var span14 = document.getElementById('close14');
+
+  span14.onclick = function() {
+      modal14.style.display = "none";
+  }
+  // Fin Modal 14
+
+  // Inicio Modal 15
+  var modal15 = document.getElementById('myModal15');
+
+  var img15 = document.getElementById('myImg15');
+  var modalImg15 = document.getElementById("img16");
+  var captionText15 = document.getElementById("caption15");
+  img15.onclick = function(){
+      modal15.style.display = "block";
+      modalImg15.src = this.src;
+      captionText15.innerHTML = this.alt;
+  }
+
+  var span15 = document.getElementById('close15');
+
+  span15.onclick = function() {
+      modal15.style.display = "none";
+  }
+  // Fin Modal 15
+
+  // Inicio Modal 16
+  var modal16 = document.getElementById('myModal16');
+
+  var img16 = document.getElementById('myImg16');
+  var modalImg16 = document.getElementById("img17");
+  var captionText16 = document.getElementById("caption16");
+  img16.onclick = function(){
+      modal16.style.display = "block";
+      modalImg16.src = this.src;
+      captionText16.innerHTML = this.alt;
+  }
+
+  var span16 = document.getElementById('close16');
+
+  span16.onclick = function() {
+      modal16.style.display = "none";
+  }
+  // Fin Modal 16
+
 
 
 
