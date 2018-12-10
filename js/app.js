@@ -247,6 +247,24 @@ $(document).ready(function () {
   }
   // Fin Modal 12
 
+  // Inicio Modal 13
+  var modal13 = document.getElementById('myModal13');
+
+  var img13 = document.getElementById('myImg13');
+  var modalImg13 = document.getElementById("img14");
+  var captionText13 = document.getElementById("caption13");
+  img13.onclick = function(){
+      modal13.style.display = "block";
+      modalImg13.src = this.src;
+      captionText13.innerHTML = this.alt;
+  }
+
+  var span13 = document.getElementById('close13');
+
+  span13.onclick = function() {
+      modal13.style.display = "none";
+  }
+  // Fin Modal 13
 
 
 
