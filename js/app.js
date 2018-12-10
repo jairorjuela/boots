@@ -340,8 +340,45 @@ $(document).ready(function () {
   span17.onclick = function() {
       modal17.style.display = "none";
   }
-  // Fin Modal 16
+  // Fin Modal 17
 
+  // Inicio Modal 18
+  var modal18 = document.getElementById('myModal18');
+
+  var img18 = document.getElementById('myImg18');
+  var modalImg18 = document.getElementById("img19");
+  var captionText18 = document.getElementById("caption18");
+  img18.onclick = function(){
+      modal18.style.display = "block";
+      modalImg18.src = this.src;
+      captionText18.innerHTML = this.alt;
+  }
+
+  var span18 = document.getElementById('close18');
+
+  span18.onclick = function() {
+      modal18.style.display = "none";
+  }
+  // Fin Modal 18
+
+  // Inicio Modal 19
+  var modal19 = document.getElementById('myModal19');
+
+  var img19 = document.getElementById('myImg19');
+  var modalImg19 = document.getElementById("img20");
+  var captionText19 = document.getElementById("caption19");
+  img19.onclick = function(){
+      modal19.style.display = "block";
+      modalImg19.src = this.src;
+      captionText19.innerHTML = this.alt;
+  }
+
+  var span19 = document.getElementById('close19');
+
+  span19.onclick = function() {
+      modal19.style.display = "none";
+  }
+  // Fin Modal 19
 
 
 
