@@ -495,7 +495,7 @@ $(document).ready(function () {
   // Fin Modal 25
 
   // Inicio Modal 26
-  var modal26 = document.getElementById('myModal26');
+   var modal26 = document.getElementById('myModal26');
 
   var img26 = document.getElementById('myImg26');
   var modalImg26 = document.getElementById("img27");
@@ -513,6 +513,43 @@ $(document).ready(function () {
   }
   // Fin Modal 26
 
+  // Inicio Modal 27
+   var modal27 = document.getElementById('myModal27');
+
+  var img27 = document.getElementById('myImg27');
+  var modalImg27 = document.getElementById("img28");
+  var captionText27 = document.getElementById("caption27");
+  img27.onclick = function(){
+      modal27.style.display = "block";
+      modalImg27.src = this.src;
+      captionText27.innerHTML = this.alt;
+  }
+
+  var span27 = document.getElementById('close27');
+
+  span27.onclick = function() {
+      modal27.style.display = "none";
+  }
+  // Fin Modal 27
+
+  // Inicio Modal 28
+   var modal28 = document.getElementById('myModal28');
+
+  var img28 = document.getElementById('myImg28');
+  var modalImg28 = document.getElementById("img29");
+  var captionText28 = document.getElementById("caption28");
+  img28.onclick = function(){
+      modal28.style.display = "block";
+      modalImg28.src = this.src;
+      captionText28.innerHTML = this.alt;
+  }
+
+  var span28 = document.getElementById('close28');
+
+  span28.onclick = function() {
+      modal28.style.display = "none";
+  }
+  // Fin Modal 28
 
 
 
