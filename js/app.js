@@ -611,6 +611,25 @@ $(document).ready(function () {
     }
     // Fin Modal 31
 
+    // Inicio Modal 32
+     var modal32 = document.getElementById('myModal32');
+
+    var img32 = document.getElementById('myImg32');
+    var modalImg32 = document.getElementById("img33");
+    var captionText32 = document.getElementById("caption32");
+    img32.onclick = function(){
+        modal32.style.display = "block";
+        modalImg32.src = this.src;
+        captionText32.innerHTML = this.alt;
+    }
+
+    var span32 = document.getElementById('close32');
+
+    span32.onclick = function() {
+        modal32.style.display = "none";
+    }
+    // Fin Modal 32
+
 
 
 
