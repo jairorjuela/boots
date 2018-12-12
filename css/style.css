@@ -200,8 +200,6 @@ section h2 {
 	-webkit-text-stroke: 0.5px white;
 }
 
-
-
 /* Style the Image Used to Trigger the Modal */
 .imagemodal {
   border-radius: 5px;
@@ -212,15 +210,15 @@ section h2 {
 .imagemodal:hover {
 	opacity: 0.7;
 	color: #424242;
--webkit-transition: all .3s ease-in;
--moz-transition: all .3s ease-in;
--ms-transition: all .3s ease-in;
--o-transition: all .3s ease-in;
-transition: all .3s ease-in;
-opacity: 1;
-transform: scale(1.15);
--ms-transform: scale(1.15); /* IE 9 */
--webkit-transform: scale(1.15); /* Safari and Chrome */
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+	opacity: 1;
+	transform: scale(1.15);
+	-ms-transform: scale(1.15); /* IE 9 */
+	-webkit-transform: scale(1.15); /* Safari and Chrome */
 }
 
 /* The Modal (background) */
