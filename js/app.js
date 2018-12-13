@@ -800,6 +800,25 @@ $(document).ready(function () {
       }
       // Fin Modal 40
 
+      // Inicio Modal 41
+       var modal41 = document.getElementById('myModal41');
+
+      var img41 = document.getElementById('myImg41');
+      var modalImg41 = document.getElementById("img42");
+      var captionText41 = document.getElementById("caption41");
+      img41.onclick = function(){
+          modal41.style.display = "block";
+          modalImg41.src = this.src;
+          captionText41.innerHTML = this.alt;
+      }
+
+      var span41 = document.getElementById('close41');
+
+      span41.onclick = function() {
+          modal41.style.display = "none";
+      }
+      // Fin Modal 41
+
 
 
 
