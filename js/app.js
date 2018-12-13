@@ -668,6 +668,25 @@ $(document).ready(function () {
     }
     // Fin Modal 34
 
+    // Inicio Modal 35
+     var modal35 = document.getElementById('myModal35');
+
+    var img35 = document.getElementById('myImg35');
+    var modalImg35 = document.getElementById("img36");
+    var captionText35 = document.getElementById("caption35");
+    img35.onclick = function(){
+        modal35.style.display = "block";
+        modalImg35.src = this.src;
+        captionText35.innerHTML = this.alt;
+    }
+
+    var span35 = document.getElementById('close35');
+
+    span35.onclick = function() {
+        modal35.style.display = "none";
+    }
+    // Fin Modal 35
+
 
 
 
