@@ -725,6 +725,44 @@ $(document).ready(function () {
     }
     // Fin Modal 37
 
+    // Inicio Modal 38
+     var modal38 = document.getElementById('myModal38');
+
+    var img38 = document.getElementById('myImg38');
+    var modalImg38 = document.getElementById("img39");
+    var captionText38 = document.getElementById("caption38");
+    img38.onclick = function(){
+        modal38.style.display = "block";
+        modalImg38.src = this.src;
+        captionText38.innerHTML = this.alt;
+    }
+
+    var span38 = document.getElementById('close38');
+
+    span38.onclick = function() {
+        modal38.style.display = "none";
+    }
+    // Fin Modal 38
+
+    // Inicio Modal 39
+     var modal39 = document.getElementById('myModal39');
+
+    var img39 = document.getElementById('myImg39');
+    var modalImg39 = document.getElementById("img40");
+    var captionText39 = document.getElementById("caption39");
+    img39.onclick = function(){
+        modal39.style.display = "block";
+        modalImg39.src = this.src;
+        captionText39.innerHTML = this.alt;
+    }
+
+    var span39 = document.getElementById('close39');
+
+    span39.onclick = function() {
+        modal39.style.display = "none";
+    }
+    // Fin Modal 39
+
 
 
 
