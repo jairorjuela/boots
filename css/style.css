@@ -205,17 +205,17 @@ section h2 {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+	opacity: 0.7;
 }
 
 .imagemodal:hover {
-	opacity: 0.7;
+	opacity: 15;
 	color: #424242;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
 	-ms-transition: all .3s ease-in;
 	-o-transition: all .3s ease-in;
 	transition: all .3s ease-in;
-	opacity: 1;
 	transform: scale(1.15);
 	-ms-transform: scale(1.15); /* IE 9 */
 	-webkit-transform: scale(1.15); /* Safari and Chrome */
