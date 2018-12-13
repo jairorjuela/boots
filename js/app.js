@@ -857,6 +857,101 @@ $(document).ready(function () {
       }
       // Fin Modal 43
 
+      // Inicio Modal 44
+       var modal44 = document.getElementById('myModal44');
+
+      var img44 = document.getElementById('myImg44');
+      var modalImg44 = document.getElementById("img45");
+      var captionText44 = document.getElementById("caption44");
+      img44.onclick = function(){
+          modal44.style.display = "block";
+          modalImg44.src = this.src;
+          captionText44.innerHTML = this.alt;
+      }
+
+      var span44 = document.getElementById('close44');
+
+      span44.onclick = function() {
+          modal44.style.display = "none";
+      }
+      // Fin Modal 44
+
+      // Inicio Modal 45
+       var modal45 = document.getElementById('myModal45');
+
+      var img45 = document.getElementById('myImg45');
+      var modalImg45 = document.getElementById("img46");
+      var captionText45 = document.getElementById("caption45");
+      img45.onclick = function(){
+          modal45.style.display = "block";
+          modalImg45.src = this.src;
+          captionText45.innerHTML = this.alt;
+      }
+
+      var span45 = document.getElementById('close45');
+
+      span45.onclick = function() {
+          modal45.style.display = "none";
+      }
+      // Fin Modal 45
+
+      // Inicio Modal 46
+       var modal46 = document.getElementById('myModal46');
+
+      var img46 = document.getElementById('myImg46');
+      var modalImg46 = document.getElementById("img47");
+      var captionText46 = document.getElementById("caption46");
+      img46.onclick = function(){
+          modal46.style.display = "block";
+          modalImg46.src = this.src;
+          captionText46.innerHTML = this.alt;
+      }
+
+      var span46 = document.getElementById('close46');
+
+      span46.onclick = function() {
+          modal46.style.display = "none";
+      }
+      // Fin Modal 46
+
+      // Inicio Modal 47
+       var modal47 = document.getElementById('myModal47');
+
+      var img47 = document.getElementById('myImg47');
+      var modalImg47 = document.getElementById("img48");
+      var captionText47 = document.getElementById("caption47");
+      img47.onclick = function(){
+          modal47.style.display = "block";
+          modalImg47.src = this.src;
+          captionText47.innerHTML = this.alt;
+      }
+
+      var span47 = document.getElementById('close47');
+
+      span47.onclick = function() {
+          modal47.style.display = "none";
+      }
+      // Fin Modal 47
+
+      // Inicio Modal 48
+       var modal48 = document.getElementById('myModal48');
+
+      var img48 = document.getElementById('myImg48');
+      var modalImg48 = document.getElementById("img49");
+      var captionText48 = document.getElementById("caption48");
+      img48.onclick = function(){
+          modal48.style.display = "block";
+          modalImg48.src = this.src;
+          captionText48.innerHTML = this.alt;
+      }
+
+      var span48 = document.getElementById('close48');
+
+      span48.onclick = function() {
+          modal48.style.display = "none";
+      }
+      // Fin Modal 48
+
 
 
 
