@@ -687,6 +687,43 @@ $(document).ready(function () {
     }
     // Fin Modal 35
 
+    // Inicio Modal 36
+     var modal36 = document.getElementById('myModal36');
+
+    var img36 = document.getElementById('myImg36');
+    var modalImg36 = document.getElementById("img37");
+    var captionText36 = document.getElementById("caption36");
+    img36.onclick = function(){
+        modal36.style.display = "block";
+        modalImg36.src = this.src;
+        captionText36.innerHTML = this.alt;
+    }
+
+    var span36 = document.getElementById('close36');
+
+    span36.onclick = function() {
+        modal36.style.display = "none";
+    }
+    // Fin Modal 36
+
+    // Inicio Modal 37
+     var modal37 = document.getElementById('myModal37');
+
+    var img37 = document.getElementById('myImg37');
+    var modalImg37 = document.getElementById("img38");
+    var captionText37 = document.getElementById("caption37");
+    img37.onclick = function(){
+        modal37.style.display = "block";
+        modalImg37.src = this.src;
+        captionText37.innerHTML = this.alt;
+    }
+
+    var span37 = document.getElementById('close37');
+
+    span37.onclick = function() {
+        modal37.style.display = "none";
+    }
+    // Fin Modal 37
 
 
 
