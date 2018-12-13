@@ -630,6 +630,25 @@ $(document).ready(function () {
     }
     // Fin Modal 32
 
+    // Inicio Modal 33
+     var modal33 = document.getElementById('myModal33');
+
+    var img33 = document.getElementById('myImg33');
+    var modalImg33 = document.getElementById("img34");
+    var captionText33 = document.getElementById("caption33");
+    img33.onclick = function(){
+        modal33.style.display = "block";
+        modalImg33.src = this.src;
+        captionText33.innerHTML = this.alt;
+    }
+
+    var span33 = document.getElementById('close33');
+
+    span33.onclick = function() {
+        modal33.style.display = "none";
+    }
+    // Fin Modal 33
+
 
 
 
