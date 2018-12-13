@@ -649,6 +649,25 @@ $(document).ready(function () {
     }
     // Fin Modal 33
 
+    // Inicio Modal 34
+     var modal34 = document.getElementById('myModal34');
+
+    var img34 = document.getElementById('myImg34');
+    var modalImg34 = document.getElementById("img35");
+    var captionText34 = document.getElementById("caption34");
+    img34.onclick = function(){
+        modal34.style.display = "block";
+        modalImg34.src = this.src;
+        captionText34.innerHTML = this.alt;
+    }
+
+    var span34 = document.getElementById('close34');
+
+    span34.onclick = function() {
+        modal34.style.display = "none";
+    }
+    // Fin Modal 34
+
 
 
 
