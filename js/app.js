@@ -951,21 +951,6 @@ $(document).ready(function () {
           modal48.style.display = "none";
       }
       // Fin Modal 48
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
 function onScroll(event){
   var scrollPosition = $(document).scrollTop();
