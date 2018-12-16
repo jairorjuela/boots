@@ -106,22 +106,16 @@
 	background-color: #fed136;
 	}
 
-	#acerca {
-		background:
-			url('../images/boots.png') repeat-y 2%;
-	}
-
 	#servicios {
-		background: white;
+    background:
+      linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ),
+      url('../images/boots.png') repeat-x 100%;
 	}
 
 	#servicios .box {
 		display: inline-block;
 		text-align: center;
 		align-items: baseline;
-    background:
-      linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ),
-      url('../images/boots.png') repeat-x 100%;
 	}
 
 	#portafolio {
@@ -398,11 +392,6 @@
 
 	#home .social a:hover {
 	background-color: #fed136;
-	}
-
-	#acerca {
-		background:
-			url('../images/boots.png') repeat-y 2%;
 	}
 
 	#servicios {
@@ -693,7 +682,7 @@
 
 	#nosotros {
 		background:
-			url('../images/boots.png') repeat-y 55%;
+			url('../images/boots.png') repeat-y 90%;
 	}
 
 	#servicios {
@@ -741,13 +730,13 @@
 		border-radius: 3px;
 	}
 
-	#contacto textarea{
+	#contacto textarea {
 		margin: 20px 0;
 		padding: 20px;
 		width: 400px;
 	}
 
-	#contacto button{
+	#contacto button {
 		background-color: #fed136;
 		padding: 20px 40px;
 		border-color: #fed136;
@@ -779,7 +768,7 @@
 		margin-right: auto;
 	}
 
-	#quienes{
+	#quienes {
 		text-align: justify;
 	}
 
