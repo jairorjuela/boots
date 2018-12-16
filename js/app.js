@@ -17,10 +17,6 @@ $(document).ready(function () {
     });
   });
 
-
-
-
-
     // Inicio Modal 1
       var modal = document.getElementById('myModal');
 
