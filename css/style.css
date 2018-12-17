@@ -396,6 +396,12 @@
 	background-color: #fed136;
 	}
 
+
+	#acerca	{
+    background:
+			url('../images/boots.png') repeat-y 2%;
+	}
+
 	#servicios {
 		background: white;
 	}
