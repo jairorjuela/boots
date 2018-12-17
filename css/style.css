@@ -19,6 +19,7 @@
   * { box-sizing: border-box; }
 
 	body {
+    background-color: red;
 		font-family: 'Roboto', sans-serif;
 		font-size: 16px;
 		line-height: 1.6;
@@ -307,6 +308,7 @@
 	* { box-sizing: border-box; }
 
 	body {
+    background-color: blue;
 		font-family: 'Roboto', sans-serif;
 		font-size: 16px;
 		line-height: 1.6;
