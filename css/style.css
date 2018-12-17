@@ -396,7 +396,6 @@
 	background-color: #fed136;
 	}
 
-
 	#acerca	{
     background:
 			url('../images/boots.png') repeat-y 2%;
@@ -692,6 +691,11 @@
 	#nosotros {
 		background:
 			url('../images/boots.png') repeat-y 90%;
+	}
+
+  #acerca	{
+    background:
+			url('') repeat-y 2%;
 	}
 
 	#servicios {
