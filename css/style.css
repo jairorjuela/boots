@@ -8,6 +8,291 @@
 
 @media only screen and (max-width: 600px) {
 
+  * { box-sizing: border-box; }
+
+	body {
+    background-color: pink;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	.home-wrapper {
+		background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('../images/background.jpg') repeat-y 100%;
+		background-size: cover;
+		color: white;
+	}
+
+	header {
+		position: fixed;
+		background-color: rgba(48, 48, 48, 0.5);
+		padding: 12px 0;
+		width: 100%
+	}
+
+	header img {
+		width: 200px;
+	}
+
+	header nav {
+		float: right;
+		margin-top: 12px;
+	}
+
+	header nav a {
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
+		margin-left: 10px;
+		padding: 10px 15px;
+	}
+
+	header nav a.active {
+		background: #DAA520;
+		border-radius: 3px;
+	}
+
+	#home {
+		text-align: center;
+		padding: 200px 0 150px;
+	}
+
+	#home h1{
+		font-size: 68px;
+		font-weight: normal;
+		line-height: 1.2;
+		margin-bottom: 40px;
+	}
+
+	#home .divider{
+		width: 80px;
+		border-top: 5px solid #fed136;
+		margin: 0 auto;
+	}
+
+	#home p {
+		font-size: 24px;
+		margin-top: 40px;
+	}
+
+	#home .social {
+		margin-top: 80px;
+	}
+
+	#home .social a {
+		color: white;
+		display: inline-block;
+		border-radius: 50%;
+		background-color: gray;
+		font-size: 24px;
+		font-weight: bold;
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+		margin-right: 10px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;
+	}
+
+	#home .social a:hover {
+	background-color: #fed136;
+	}
+
+	#servicios {
+    background:
+      linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ),
+      url('../images/boots.png') repeat-x 100%;
+	}
+
+	#servicios .box {
+		display: inline-block;
+		text-align: center;
+		align-items: baseline;
+	}
+
+	#portafolio {
+		background-color: black;
+	}
+
+	#portafolio .box{
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 40%;
+	}
+
+	#portafolio .box p {
+		color: #666;
+		padding: 10px;
+	}
+
+	#contacto {
+		background-color: #303030;
+		background-image: url('../images/map-image.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+	#contacto h2 {
+	color: white;
+	}
+
+	#contacto input {
+		padding: 20px;
+		width: 400px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+	}
+
+	#contacto textarea{
+		margin: 20px 0;
+		padding: 20px;
+		width: 400px;
+	}
+
+	#contacto button{
+		background-color: #fed136;
+		padding: 20px 40px;
+		border-color: #fed136;
+		border-radius: 3px;
+		color: white;
+		font-size: 18px;
+		line-height: 1;
+		font-weight: bold;
+	}
+
+	footer {
+		padding: 90px 0;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	section {
+	  padding: 60px 0;
+	}
+
+	section h2 {
+	 text-align: center;
+	 margin-bottom: 50px;
+	}
+
+	.container {
+		width: 992px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#quienes{
+		text-align: justify;
+	}
+
+	#acerca {
+		margin-top: 80px;
+		font-size: 53px;
+		color: white;
+		-webkit-text-stroke: 2.5px black;
+	}
+
+	#titul {
+		font-size: 30px;
+		color: white;
+		-webkit-text-stroke: 1.5px black;
+	}
+
+	#catalo {
+		margin-top: 80px;
+		font-size: 55px;
+		color: black;
+		-webkit-text-stroke: 0.5px white;
+	}
+
+	/* Style the Image Used to Trigger the Modal */
+	.imagemodal {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+		opacity: 0.7;
+	}
+
+	.imagemodal:hover {
+		opacity: 15;
+		color: #424242;
+		-webkit-transition: all .3s ease-in;
+		-moz-transition: all .3s ease-in;
+		-ms-transition: all .3s ease-in;
+		-o-transition: all .3s ease-in;
+		transition: all .3s ease-in;
+		transform: scale(1.15);
+		-ms-transform: scale(1.15); /* IE 9 */
+		-webkit-transform: scale(1.15); /* Safari and Chrome */
+	}
+
+	/* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  padding-top: 100px; /* Location of the box */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	}
+
+	/* Modal Content (Image) */
+	.modal-content {
+	  margin: auto;
+	  display: block;
+	  width: 80%;
+	  max-width: 430px;
+	}
+
+	/* Caption of Modal Image (Image Text) - Same Width as the Image */
+	#caption {
+	  margin: auto;
+	  display: block;
+	  width: 80%;
+	  max-width: 430px;
+	  text-align: center;
+	  color: white;
+	  padding: 8px 0;
+	  height: 250px;
+	}
+
+	/* Add Animation - Zoom in the Modal */
+	.modal-content, #caption {
+	  animation-name: zoom;
+	  animation-duration: 0.6s;
+	}
+
+	@keyframes zoom {
+	  from {transform:scale(0)}
+	  to {transform:scale(1)}
+	}
+
+	/* The Close Button */
+	#portafolio .close {
+	  position: absolute;
+	  top: 85px;
+	  right: 65px;
+	  color: white;
+	  font-size: 90px;
+	  font-weight: bold;
+	  transition: 0.3s;
+	}
+
+	#portafolio .close:hover,
+	#portafolio .close:focus {
+	  color: yellow;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -22,7 +307,7 @@
 	}
 
 	.home-wrapper {
-		background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('../images/background.jpg') center 70%;
+		background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('../images/background.jpg') repeat-y 100%;
 		background-size: cover;
 		color: white;
 	}
