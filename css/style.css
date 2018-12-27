@@ -485,6 +485,7 @@
 	}
 
 	#titul {
+    background-color: white;
 		font-size: 30px;
 		color: white;
 		-webkit-text-stroke: 1.5px black;
