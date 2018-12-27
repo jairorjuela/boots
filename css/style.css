@@ -473,18 +473,16 @@
 
 	#quienes{
 		text-align: justify;
-    background-color: white;
 	}
 
 	#acerca {
 		margin-top: 80px;
-		font-size: 53px;
-		color: white;
-		-webkit-text-stroke: 2.5px black;
+		font-size: 63px;
+		color: yellow;
+		-webkit-text-stroke: 2.5px red;
 	}
 
 	#titul {
-    background-color: white;
 		font-size: 30px;
 		color: white;
 		-webkit-text-stroke: 1.5px black;
