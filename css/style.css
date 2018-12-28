@@ -184,6 +184,7 @@
 
 	#quienes{
 		text-align: justify;
+    font-size: 22px;
     color: white;
     -webkit-text-stroke: 0.1px #DAA520;
 	}
