@@ -190,13 +190,13 @@
 		margin-top: 80px;
 		font-size: 73px;
 		color: white;
-		-webkit-text-stroke: 0.3px yellow;
+		-webkit-text-stroke: 0.5px #DAA520;
 	}
 
 	#titul {
 		font-size: 40px;
 		color: white;
-		-webkit-text-stroke: 0.3px orange;
+		-webkit-text-stroke: 0.2px #DAA520;
 	}
 
 	#catalo {
