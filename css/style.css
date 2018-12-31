@@ -15,7 +15,11 @@
 		line-height: 1.6;
 	}
 
-	g
+	.home-wrapper {
+		background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6) ), url('../images/background.jpg') center 100%;
+		background-size: cover;
+		color: white;
+	}
 
 	header {
 		position: fixed;
