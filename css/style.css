@@ -864,22 +864,6 @@
 	  to {transform:scale(1)}
 	}
 
-	/* The Close Button */
-	#portafolio .close {
-	  position: absolute;
-	  top: 85px;
-	  right: 65px;
-	  color: white;
-	  font-size: 90px;
-	  font-weight: bold;
-	  transition: 0.3s;
-	}
 
-	#portafolio .close:hover,
-	#portafolio .close:focus {
-	  color: yellow;
-	  text-decoration: none;
-	  cursor: pointer;
-	}
 
 }
