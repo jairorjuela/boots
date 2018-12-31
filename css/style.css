@@ -50,17 +50,7 @@
 		border-radius: 3px;
 	}
 
-	#home {
-		text-align: center;
-		padding: 200px 0 150px;
-	}
 
-	#home h1{
-		font-size: 70px;
-		font-weight: normal;
-		line-height: 1.2;
-		margin-bottom: 40px;
-	}
 
 	#home .divider{
 		width: 80px;
