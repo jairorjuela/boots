@@ -477,23 +477,21 @@
 	}
 
 	#quienes{
+    color: black;
 		text-align: justify;
-    font-size: 22px;
-    color: white;
-    -webkit-text-stroke: 0.1px #DAA520;
 	}
 
 	#acerca {
 		margin-top: 80px;
-		font-size: 73px;
+		font-size: 53px;
 		color: white;
-		-webkit-text-stroke: 0.5px #DAA520;
+		-webkit-text-stroke: 2.5px black;
 	}
 
 	#titul {
-		font-size: 40px;
+		font-size: 30px;
 		color: white;
-		-webkit-text-stroke: 0.2px #DAA520;
+		-webkit-text-stroke: 1.5px black;
 	}
 
 	#catalo {
