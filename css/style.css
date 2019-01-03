@@ -113,7 +113,17 @@
 		background-color: black;
 	}
 
-	
+	#portafolio .box{
+		display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 40%;
+	}
+
+	#portafolio .box p {
+		color: #666;
+		padding: 10px;
+	}
 
 	#contacto {
 		background-color: #303030;
